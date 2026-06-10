@@ -1,4 +1,5 @@
-# Contribution [#]: [Issue Title]
+# Contribution 1: [Bug]: Error trying to sort orders by: Total / Fulfillment status / Payment status
+
 
 **Contribution Number:** 1
 **Student:** [Henry Huang
