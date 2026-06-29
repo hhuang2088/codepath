@@ -4,7 +4,7 @@
 **Contribution Number:** 1
 **Student:** [Henry Huang
 **Issue:** https://github.com/medusajs/medusa/issues/15353
-**Status:** Phase 2 Complete
+**Status:** Phase 4 Complete
 
 ---
 
@@ -202,7 +202,7 @@ Closes #15353
 - [Date]: [Summary of feedback received]
 - [Date]: [How you addressed it]
 
-**Status:** [Awaiting review / Iterating / Approved / Merged]
+**Status:** Awaiting review
 
 ---
 
@@ -210,15 +210,24 @@ Closes #15353
 
 ### Technical Skills Gained
 
-[What you learned technically]
+I learned to really take in the context of the app before rushing towards a particular solution. 
+For the bug reported. It was implied that the solution was to have it so that these Orders could 
+be sorted by Payment Status, Fulfillment Status, and Total. However, what I found from digging 
+into the code was that these were computed fields. Digging further into the code, precedence is 
+already set for an allow list for filterable fields for Orders. It then becomes reasonable to 
+implement a similar pattern for sortable columns.
 
 ### Challenges Overcome
 
-[What was hard and how you solved it]
+The hardest part was really to hold myself back a bit from rushing into devising a solution
+before really getting the full context of the problem.
 
 ### What I'd Do Differently Next Time
 
-[Reflection on your process]
+Next time, I would work towards being more thorough in the preliminary steps before I even begin
+writing code. This contribution has made me think of the old adage "measure twice, cut once".
+Had I not paused to take in the full context, that probably would have led to wasted development time attempting
+a non-optimal solution.
 
 ---
 
