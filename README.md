@@ -1,9 +1,10 @@
-# Contribution 1: [Bug]: Error trying to sort orders by: Total / Fulfillment status / Payment status
+# Contribution 2: 500 TypeError (reading 'calculated_amount') instead of 400 "do not have a price" when adding a variant unpriced in the cart's region
+ #15932
 
 
-**Contribution Number:** 1
-**Student:** [Henry Huang
-**Issue:** https://github.com/medusajs/medusa/issues/15353
+**Contribution Number:** 2
+**Student:** Henry Huang
+**Issue:** https://github.com/medusajs/medusa/issues/15932
 **Status:** Phase 1 Complete
 
 ---
