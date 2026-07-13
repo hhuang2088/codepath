@@ -5,7 +5,7 @@
 **Contribution Number:** 2
 **Student:** Henry Huang
 **Issue:** https://github.com/medusajs/medusa/issues/15932
-**Status:** Phase 1 Complete
+**Status:** Phase 2 Complete
 
 ---
 
@@ -39,13 +39,15 @@ This issue interests me because I like to insure web apps are in the best shape 
 
 ### Environment Setup
 
-[Notes on setting up your local development environment - challenges you faced, how you solved them]
+Node v22
+PostgreSQL 16
 
 ### Steps to Reproduce
 
-1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+1. Create two regions with different currencies (e.g. eur and xaf).
+2. Create a published product whose variant has a price only in eur.
+3. POST /store/carts with the xaf region → 200.
+4. POST /store/carts/{id}/line-items with that variant id → 500 TypeError (expected: 400 "do not have a price").
 
 ### Reproduction Evidence
 
