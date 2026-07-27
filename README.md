@@ -5,7 +5,7 @@
 **Contribution Number:** 2
 **Student:** Henry Huang
 **Issue:** https://github.com/medusajs/medusa/issues/15932
-**Status:** Phase 3 Complete
+**Status:** Phase 4 Complete
 
 ---
 
@@ -621,15 +621,15 @@ Write first pass at solution
 
 ### Technical Skills Gained
 
-[What you learned technically]
+So far, I've learned a bit more about using AI in my workflow to explore and learn the conventions of a given codebase. It still blows my mind how, AI can crawl through a codebase and give decent summaries of what the code does.
 
 ### Challenges Overcome
 
-[What was hard and how you solved it]
+The hard part had really been in learning and adapting to the conventions of an unfamiliar codebase. To be sure, using AI has helped expidite that process, but there's still a bit of a lingering feeling that I'm not following conventions correctly. Having said that, it's good to be able to move past that, and accept that the first pass will likely get feedback one way or another, and that isn't a bad thing.
 
 ### What I'd Do Differently Next Time
 
-[Reflection on your process]
+I would focus on just getting something done, rather than overthinking minor details. The maintainers of the Medusa project seem friendly and patient thus far. Feedback and iterating with them should be fine.
 
 ---
 
